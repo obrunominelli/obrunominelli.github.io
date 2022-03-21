@@ -1,9 +1,15 @@
 import{ Component } from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 class Projects extends Component {
   render() {
     return (
-      <p>Projetos</p>
+      <>
+        <Header />
+        <h1>Projetos</h1>
+        <Footer />
+      </>
     );
   }
 }

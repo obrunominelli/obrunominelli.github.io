@@ -1,9 +1,15 @@
 import{ Component } from 'react';
+import Footer from '../components/Footer';
+import Header from '../components/Header';
 
 class About extends Component {
   render() {
     return (
-      <p>Sobre</p>
+      <>
+        <Header />
+        <h1>Sobre</h1>
+        <Footer />
+      </>
     );
   }
 }
