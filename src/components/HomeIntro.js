@@ -9,7 +9,7 @@ class HomeIntro extends Component {
           <section className="flex-contaier col">
             <div class="flex-container col">
               <h1 className="content-title-auto">
-                Olá,<br />eu sou Bruno Minelli
+                Olá,<br />eu sou <strong className="content-text-highlight">Bruno Minelli</strong>
               </h1>
               <h2 className="content-subtitle-auto">Desenvolvedor Web</h2>
             </div>

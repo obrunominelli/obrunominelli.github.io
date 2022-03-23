@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import HomeAbout from '../components/HomeAbout';
 import HomeIntro from '../components/HomeIntro';
 import HomeMetrics from '../components/HomeMetrics';
+import HomeSkills from '../components/HomeSkills';
 
 class Home extends Component {
   render() {
@@ -14,6 +15,7 @@ class Home extends Component {
           <HomeIntro />
           <HomeMetrics />
           <HomeAbout />
+          <HomeSkills />
         </main>
         <Footer />
       </>
