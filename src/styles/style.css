@@ -181,7 +181,7 @@
 }
 
 .content-image-auto {
-  max-width: fit-content;
+  max-width: 500px;
   min-width: 280px;
 }
 
@@ -193,6 +193,18 @@
 .skill-block {
   width: 33%;
   padding: 32px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.contact-icon {
+  width: 99px;
+  margin: 16px;
 }
 
 .footer {
