@@ -4,10 +4,10 @@ import { images } from '../data/images';
 class HomeAbout extends Component {
   render() {
     return (
-      <article className="row background-color-purple">
+      <article className="row background-color-dark-purple">
         <div className="flex-container">
           <section className="flex-container col">
-            <h1 className="content-title-white">Sobre mim...</h1>
+            <h1 className="content-title-white-border">Sobre mim...</h1>
             <p className="content-text-white">
               Eu sou uma pessoa apaixonada por jogos e por internet desde a infância e tenho mais de sete anos de experiência com tecnologia desde a concepção e desenvolvimento de um sistema online até o gerenciamento de infraestrutura de redes de computadores.
             </p>

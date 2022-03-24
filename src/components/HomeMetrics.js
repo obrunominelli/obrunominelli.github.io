@@ -10,7 +10,7 @@ class HomeMetrics extends Component {
             <h2 className="content-text-grey">Projetos concluídos</h2>
           </section>
           <section className="block">
-            <h1 className="content-title-auto">8+</h1>
+            <h1 className="content-title-auto">+8</h1>
             <h2 className="content-text-grey">Anos de experiência</h2>
           </section>
         </div>

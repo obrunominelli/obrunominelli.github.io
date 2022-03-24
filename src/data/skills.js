@@ -4,8 +4,8 @@ const skills = {
     'RTL', 'TDD', 'Design Responsivo', 'SQL', 'Linux', 'Git'
   ],
   softSkills: [
-    'Gestão de tempo', 'Senso de Urgência', 'Negociação', 'Pensamento Abstrato',
-    'Empatia', 'Trabalho em Equipe', 'Comunicação Interpessoal', 'Criatividade']
+    'Gestão de Tempo', 'Senso de Urgência', 'Negociação', 'Pensamento Abstrato',
+    'Empatia', 'Trabalho em Equipe', 'Comunicação Interpessoal', 'Criatividade', 'Autodidata']
 }
 
 export default skills;
