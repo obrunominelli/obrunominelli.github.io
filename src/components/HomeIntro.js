@@ -5,7 +5,7 @@ class HomeIntro extends Component {
   render() {
     return (
       <article className="flex-container">
-        <div className="row background-color-auto">
+        <div className="flex-container row background-color-auto">
           <section className="flex-contaier col">
             <div className="flex-container col">
               <h1 className="content-title-auto">

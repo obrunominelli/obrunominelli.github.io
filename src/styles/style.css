@@ -226,3 +226,13 @@
   font-size: 25px;
   color: var(--grey);
 }
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  margin: auto;
+  height: 100vh;
+}
