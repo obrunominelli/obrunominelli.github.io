@@ -221,13 +221,6 @@
   text-align: center;
 }
 
-.footer > p {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 25px;
-  color: var(--grey);
-}
-
 .not-found {
   display: flex;
   flex-direction: column;

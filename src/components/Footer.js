@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <footer className="flex-container footer row">
-        <p>Bruno Minelli | Desenvolvedor Web Frontend&copy;. Todos os direitos reservados.</p>
+        <p className="content-text-grey">Bruno Minelli | Desenvolvedor Web Frontend&copy;. Todos os direitos reservados.</p>
     </footer>
   );
 }
