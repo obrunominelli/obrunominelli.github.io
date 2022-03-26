@@ -163,6 +163,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
+  margin-top: 16px;
 }
 
 .content-text-white {
@@ -182,7 +183,14 @@
 
 .content-image-auto {
   max-width: 500px;
-  min-width: 280px;
+  min-width: 250px;
+}
+
+.content-image-rounded {
+  border: 2px solid var(--dark-purple);
+  border-radius: 50%;
+  max-width: 300px;
+  min-width: 250px;
 }
 
 .skills {

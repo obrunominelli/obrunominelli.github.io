@@ -1,5 +1,4 @@
 import{ Component } from 'react';
-import { Link } from 'react-router-dom';
 import contact from '../data/contact';
 import { images } from '../data/images';
 
@@ -17,22 +16,22 @@ class HomeContact extends Component {
         </section>
         <section className="col">
           <div className="flex-container col">
-            <Link to={ contact.linkedIn.url } className="row content-text-white link">
+            <a href={ contact.linkedIn.url } target="_blank" rel="noreferrer" className="row content-text-white link">
               <img src={ contact.linkedIn.src } alt={ contact.linkedIn.alt } className="contact-icon" />
               obrunominelli
-            </Link>
-            <Link to={ contact.github.url } className="row content-text-white link">
+            </a>
+            <a href={ contact.github.url } target="_blank" rel="noreferrer" className="row content-text-white link">
               <img src={ contact.github.src } alt={ contact.github.alt } className="contact-icon" />
               obrunominelli
-            </Link>
-            <Link to={ contact.telegram.url } className="row content-text-white link">
+            </a>
+            <a href={ contact.telegram.url } target="_blank" rel="noreferrer" className="row content-text-white link">
               <img src={ contact.telegram.src } alt={ contact.telegram.alt } className="contact-icon" />
               obrunominelli
-            </Link>
-            <Link to={ contact.email.url } className="row content-text-white link">
+            </a>
+            <a href={ contact.email.url } target="_blank" rel="noreferrer" className="row content-text-white link">
               <img src={ contact.email.src } alt={ contact.email.alt } className="contact-icon" />
               obrunominelli
-            </Link>
+            </a>
           </div>
         </section>
       </article>
