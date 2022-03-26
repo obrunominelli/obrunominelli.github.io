@@ -18,7 +18,7 @@ class About extends Component {
               <p className="content-text-grey">Bruno Minelli | Desenvolvedor Web</p>
             </figcaption>
           </figure>
-            { about.map((paragraph) => <p className="content-text-auto">{paragraph}</p>)}
+            { about.map((paragraph, index) => <p key={`paragraph-${index}`} className="content-text-auto">{paragraph}</p>)}
           </article>
         </main>
         <Footer />
