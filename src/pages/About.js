@@ -9,17 +9,17 @@ class About extends Component {
     return (
       <>
         <Header />
-        <main className="flex-container row">
+        <main className="flex-container col">
           <article className="flex-container col">
             <h1 className="content-title-purple">Sobre mim</h1>
-            { about.map((paragraph) => <p className="content-text-auto">{paragraph}</p>)}
-          </article>
-          <figure className="flex-container col">
+            <figure className="block">
             <img src={images.brunoMinelliPicture.src} alt={images.brunoMinelliPicture.alt} className="content-image-rounded"/>
             <figcaption className="block">
               <p className="content-text-grey">Bruno Minelli | Desenvolvedor Web</p>
             </figcaption>
           </figure>
+            { about.map((paragraph) => <p className="content-text-auto">{paragraph}</p>)}
+          </article>
         </main>
         <Footer />
       </>

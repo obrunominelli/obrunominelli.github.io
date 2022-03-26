@@ -14,25 +14,23 @@ class HomeContact extends Component {
             <img src={ images.paperAirplanes.src } alt={ images.paperAirplanes.alt } className="content-image-auto"/>
           </figure>
         </section>
-        <section className="col">
-          <div className="flex-container col">
-            <a href={ contact.linkedIn.url } target="_blank" rel="noreferrer" className="row content-text-white link">
-              <img src={ contact.linkedIn.src } alt={ contact.linkedIn.alt } className="contact-icon" />
-              obrunominelli
-            </a>
-            <a href={ contact.github.url } target="_blank" rel="noreferrer" className="row content-text-white link">
-              <img src={ contact.github.src } alt={ contact.github.alt } className="contact-icon" />
-              obrunominelli
-            </a>
-            <a href={ contact.telegram.url } target="_blank" rel="noreferrer" className="row content-text-white link">
-              <img src={ contact.telegram.src } alt={ contact.telegram.alt } className="contact-icon" />
-              obrunominelli
-            </a>
-            <a href={ contact.email.url } target="_blank" rel="noreferrer" className="row content-text-white link">
-              <img src={ contact.email.src } alt={ contact.email.alt } className="contact-icon" />
-              obrunominelli
-            </a>
-          </div>
+        <section className="flex-container col">
+          <a href={ contact.linkedIn.url } target="_blank" rel="noreferrer" className="content-text-white link">
+            <img src={ contact.linkedIn.src } alt={ contact.linkedIn.alt } className="contact-icon" />
+            obrunominelli
+          </a>
+          <a href={ contact.github.url } target="_blank" rel="noreferrer" className="content-text-white link">
+            <img src={ contact.github.src } alt={ contact.github.alt } className="contact-icon" />
+            obrunominelli
+          </a>
+          <a href={ contact.telegram.url } target="_blank" rel="noreferrer" className="content-text-white link">
+            <img src={ contact.telegram.src } alt={ contact.telegram.alt } className="contact-icon" />
+            obrunominelli
+          </a>
+          <a href={ contact.email.url } target="_blank" rel="noreferrer" className="content-text-white link">
+            <img src={ contact.email.src } alt={ contact.email.alt } className="contact-icon" />
+            obrunominelli
+          </a>
         </section>
       </article>
     );

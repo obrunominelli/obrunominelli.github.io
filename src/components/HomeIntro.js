@@ -7,7 +7,7 @@ class HomeIntro extends Component {
       <article className="flex-container">
         <div className="row background-color-auto">
           <section className="flex-contaier col">
-            <div class="flex-container col">
+            <div className="flex-container col">
               <h1 className="content-title-auto">
                 Olá,<br />eu sou <strong className="content-text-highlight">Bruno Minelli</strong>
               </h1>

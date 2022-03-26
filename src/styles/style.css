@@ -182,13 +182,13 @@
 }
 
 .content-image-auto {
-  max-width: 500px;
+  max-width: 400px;
   min-width: 250px;
 }
 
 .content-image-rounded {
   border: 2px solid var(--dark-purple);
-  border-radius: 50%;
+  border-radius: 10%;
   max-width: 300px;
   min-width: 250px;
 }
@@ -206,12 +206,12 @@
 .link {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-decoration: none;
 }
 
 .contact-icon {
-  width: 99px;
+  width: 70px;
   margin: 16px;
 }
 
