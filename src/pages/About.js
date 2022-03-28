@@ -12,7 +12,7 @@ class About extends Component {
         <main className="flex-container col">
           <article className="flex-container col">
             <h1 className="content-title-purple">Sobre mim</h1>
-            <figure className="block">
+            <figure className="flex-container col">
             <img src={images.brunoMinelliPicture.src} alt={images.brunoMinelliPicture.alt} className="content-image-rounded"/>
             <figcaption className="block">
               <p className="content-text-grey">Bruno Minelli | Desenvolvedor Web</p>

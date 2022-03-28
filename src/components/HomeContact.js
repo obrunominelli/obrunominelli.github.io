@@ -6,7 +6,7 @@ class HomeContact extends Component {
   render() {
     return (
       <article className="flex-container row background-color-purple">
-        <section className="flex-container col">
+        <section className="block">
           <h1 className="content-title-white">Contato</h1>
           <p className="content-text-white">Gostaria de um sistema web ou de um site de uso pessoal ou profissional?</p>
           <p className="content-text-white">Eu desenvolvo da forma que desejar.</p>
@@ -14,7 +14,7 @@ class HomeContact extends Component {
             <img src={ images.paperAirplanes.src } alt={ images.paperAirplanes.alt } className="content-image-auto"/>
           </figure>
         </section>
-        <section className="flex-container col">
+        <section className="block">
           <a href={ contact.linkedIn.url } target="_blank" rel="noreferrer" className="content-text-white link">
             <img src={ contact.linkedIn.src } alt={ contact.linkedIn.alt } className="contact-icon" />
             obrunominelli

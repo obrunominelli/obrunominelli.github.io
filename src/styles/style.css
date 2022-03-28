@@ -18,7 +18,7 @@
 
 .row {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   align-items: flex-start;
   justify-content: center;
 }
@@ -34,8 +34,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  text-align: center;
   padding: 32px;
+  width: 50%;
+}
+
+.block.row {
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .container .block {
@@ -58,11 +63,13 @@
   font-style: normal;
   font-weight: bold;
   font-size: 27px;
+  width: 50%;
 }
 
 .nav {
   flex-flow: row wrap;
   justify-content: space-around;
+  width: 50%;
 }
 
 .nav > a {
@@ -83,7 +90,7 @@
 
 .button-auto {
   border: none;
-  box-shadow: -4px 5px 4px #00000040;
+  box-shadow: -4px 5px 4px var(--black-shadow);
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -180,6 +187,7 @@
   font-weight: 500;
   font-size: 18px;
   color: var(--medium-grey);
+  width: fit-content;
 }
 
 .content-image-auto {
@@ -202,6 +210,26 @@
 .skill-block {
   width: 33%;
   padding: 32px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-shadow: -4px 5px 4px var(--black-shadow);
+  background-color: var(--dark-purple);
+  color: var(--white);
+  margin: 16px;
+  padding: 32px;
+  width: 850px;
+  height: 400px;
+  transition: 1s;
+}
+
+.project:hover {
+  box-shadow: none;
+
 }
 
 .link {

@@ -11,12 +11,12 @@ class Contact extends Component {
         <article className="flex-container">
           <div className="background-color-purple col">
             <section className="flex-container row">
-              <div className="flex-container col">
+              <div className="block">
                 <h1 className="content-title-white">Do que você precisa?</h1>
                 <p className="content-text-white">Gostaria de um sistema web ou de um site de uso pessoal ou profissional?</p>
                 <p className="content-text-white">Eu desenvolvo da forma que desejar.</p>
               </div>
-              <div className="flex-container col">
+              <div className="block">
                 <h2 className="content-title-white">Serviços</h2>
                 <p className="content-text-white">Desenvolvimento Web Frontend</p>
                 <p className="content-text-white">Desenvolvimento Web Backend</p>
