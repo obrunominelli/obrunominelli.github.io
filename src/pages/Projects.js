@@ -12,10 +12,16 @@ class Projects extends Component {
             <article className="row">
               {
                 projects.map((project) => (
-                  <section className="project">
-                    <h2 className="content-title-white-border">{project.title}</h2>
-                    <p className="content-text-white">{project.description}</p>
-                    <img src='' alt={`${project.thumbnail.alt} ${project.title}`} />
+                  <section key={project.title} className="project">
+                    <div className="col">
+                      <h2 className="content-title-project">{project.title}</h2>
+                      <p className="content-text-white">{project.deadline}</p>
+                      <p className="content-text-white">{project.description}</p>
+                    </div>
+                    <div className="row">
+                      <h3 className="content-title-project">Equipe</h3>
+                      {project.team.map((member) => <p key={ member } className="content-text-white">{member}</p>)}
+                    </div>
                   </section>
                 ))
               }

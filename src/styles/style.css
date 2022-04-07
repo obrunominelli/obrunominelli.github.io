@@ -34,7 +34,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 32px;
+  padding: 8px;
   width: 50%;
 }
 
@@ -68,7 +68,7 @@
 
 .nav {
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: center;
   width: 50%;
 }
 
@@ -90,6 +90,8 @@
 
 .button-auto {
   border: none;
+  text-decoration: none;
+  text-align: center;
   box-shadow: -4px 5px 4px var(--black-shadow);
   font-style: normal;
   font-weight: 600;
@@ -149,6 +151,15 @@
   color: var(--white);
 }
 
+.content-title-project {
+  border-bottom: 8px solid var(--purple);
+  margin-bottom: 16px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--white);
+}
+
 .content-title-purple {
   font-style: normal;
   font-weight: 700;
@@ -170,22 +181,21 @@
 .content-text-auto {
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
   margin-top: 16px;
 }
 
 .content-text-white {
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
-  margin-top: 8px;
+  font-size: 16px;
   color: var(--white);
 }
 
 .content-text-grey {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 16px;
   color: var(--medium-grey);
   width: fit-content;
 }
@@ -216,20 +226,19 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
-  box-shadow: -4px 5px 4px var(--black-shadow);
+  justify-content: space-evenly;
+  box-shadow: -8px 10px 8px var(--black-shadow);
   background-color: var(--dark-purple);
   color: var(--white);
   margin: 16px;
   padding: 32px;
-  width: 850px;
-  height: 400px;
+  width: 30%;
+  height: 500px;
   transition: 1s;
 }
 
 .project:hover {
   box-shadow: none;
-
 }
 
 .link {

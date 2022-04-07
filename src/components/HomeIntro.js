@@ -1,4 +1,5 @@
 import{ Component } from 'react';
+import { Link } from 'react-router-dom';
 import { images } from '../data/images';
 
 class HomeIntro extends Component {
@@ -14,8 +15,8 @@ class HomeIntro extends Component {
               <h2 className="content-subtitle-auto">Desenvolvedor Web</h2>
             </div>
             <nav className="flex-container">
-              <button type="button" className="button-auto button-white">Contato</button>
-              <button type="button" className="button-auto button-purple">Projetos</button>
+              <Link to="/contact" className="button-auto button-white">Contato</Link>
+              <Link to="/projects" className="button-auto button-purple">Projetos</Link>
             </nav>
           </section>
           <figure className="block">
