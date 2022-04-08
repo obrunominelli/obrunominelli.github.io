@@ -1,0 +1,30 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.header > h1 {
+  font-size: 26px;
+  color: var(--primary-color);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav_link {
+  margin: 0.5rem 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 26px;
+  color: var(--text-color-auto);
+  transition: 1s;
+}
+
+.nav_link:hover {
+  color: var(--primary-color);
+}

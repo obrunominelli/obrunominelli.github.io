@@ -12,7 +12,7 @@ class Home extends Component {
     return (
       <>
         <Header />
-        <main className="col">
+        <main>
           <HomeIntro />
           <HomeMetrics />
           <HomeAbout />

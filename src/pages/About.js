@@ -9,16 +9,16 @@ class About extends Component {
     return (
       <>
         <Header />
-        <main className="flex-container col">
-          <article className="flex-container col">
-            <h1 className="content-title-purple">Sobre mim</h1>
-            <figure className="flex-container col">
-            <img src={images.brunoMinelliPicture.src} alt={images.brunoMinelliPicture.alt} className="content-image-rounded"/>
-            <figcaption className="block">
-              <p className="content-text-grey">Bruno Minelli | Desenvolvedor Web</p>
+        <main>
+          <article>
+            <h1>Sobre mim</h1>
+            <figure>
+            <img src={images.brunoMinelliPicture.src} alt={images.brunoMinelliPicture.alt}/>
+            <figcaption>
+              <p>Bruno Minelli | Desenvolvedor Web</p>
             </figcaption>
           </figure>
-            { about.map((paragraph, index) => <p key={`paragraph-${index}`} className="content-text-auto">{paragraph}</p>)}
+            { about.map((paragraph, index) => <p key={`paragraph-${index}`}>{paragraph}</p>)}
           </article>
         </main>
         <Footer />

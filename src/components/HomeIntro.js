@@ -1,28 +1,27 @@
 import{ Component } from 'react';
 import { Link } from 'react-router-dom';
 import { images } from '../data/images';
+import styles from '../styles/Home.module.css';
 
 class HomeIntro extends Component {
   render() {
     return (
-      <article className="flex-container">
-        <div className="flex-container background-color-auto">
-          <section className="block">
-            <div className="flex-container col">
-              <h1 className="content-title-auto">
-                Olá,<br />eu sou <strong className="content-text-highlight">Bruno Minelli</strong>
-              </h1>
-              <h2 className="content-subtitle-auto">Desenvolvedor Web</h2>
-            </div>
-            <nav className="flex-container">
-              <Link to="/contact" className="button-auto button-white">Contato</Link>
-              <Link to="/projects" className="button-auto button-purple">Projetos</Link>
+      <article className={styles.container}>
+        <section className={styles.container_grey}>
+          <div className={styles.container_block}>
+            <h1>
+              Olá,<br />eu sou <strong>Bruno Minelli</strong>
+            </h1>
+            <h2>Desenvolvedor Web</h2>
+            <nav className={styles.container_button}>
+              <Link to="/contact" className={`${styles.btn} ${styles.btn_white}`}>Contato</Link>
+              <Link to="/projects" className={`${styles.btn} ${styles.btn_purple}`}>Projetos</Link>
             </nav>
-          </section>
-          <figure className="block">
-            <img src={ images.laptop.src } alt={ images.laptop.alt } className="content-image-auto"/>
+          </div>
+          <figure className={styles.container_block}>
+            <img src={ images.laptop.src } alt={ images.laptop.alt } className={styles.container_image}/>
           </figure>
-        </div>
+        </section>
       </article>
     );
   }
