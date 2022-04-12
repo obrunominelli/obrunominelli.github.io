@@ -117,5 +117,12 @@ export const projects = [
     description: 'Desenvolvimento de uma carteira de controle de gastos com conversor de moedas internacionais para Real Brasileiro.',
     team: ['Bruno Minelli'],
     thumbnail: {src: '', alt: 'Imagem do projeto'},
+  },
+  {
+    title: 'Trivia',
+    deadline: '18/04/2022',
+    description: 'Desenvolvimento de um jogo de perguntas e respostas alimentado por uma API de perguntas de conhecimentos gerais.',
+    team: ['Arthur Barbosa', 'Bruno Minelli', 'Bryan Fernandes', 'Paulo Victor Gusmão', 'Rafael Barbosa'],
+    thumbnail: {src: '', alt: 'Imagem do projeto'},
   }
 ];
