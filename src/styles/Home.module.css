@@ -119,8 +119,21 @@
 }
 
 .container_skills_block {
-  width: 30%;
-  margin: 0.44rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container_skills_card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+  height: 50px;
+  margin: 1.25rem;
   font-size: 1rem;
 }
 
