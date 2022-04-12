@@ -1,7 +1,9 @@
+import styles from '../styles/Footer.module.css';
+
 const Footer = () => {
   return (
-    <footer>
-        <p>Bruno Minelli | Desenvolvedor Web Frontend&copy;. Todos os direitos reservados.</p>
+    <footer className={ styles.footer }>
+      Bruno Minelli | Desenvolvedor Web Frontend&copy;. Todos os direitos reservados.
     </footer>
   );
 }

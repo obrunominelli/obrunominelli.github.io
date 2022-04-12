@@ -1,7 +1,7 @@
 import{ Component } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import contact from '../data/contact';
+import contacts from '../data/contacts';
 
 class Contact extends Component {
   render() {
@@ -24,26 +24,14 @@ class Contact extends Component {
               </div>
             </section>
             <section>
-                <div className="col">
-                  <a href={ contact.linkedIn.url } target="_blank" rel="noreferrer">
-                    <img src={ contact.linkedIn.src } alt={ contact.linkedIn.alt }/>
+              {
+                contacts.map((contact) => (
+                  <a href={ contact.url } target="_blank" rel="noreferrer">
+                    <img src={ contact.src } alt={ contact.alt }/>
                     obrunominelli
                   </a>
-                  <a href={ contact.github.url } target="_blank" rel="noreferrer">
-                    <img src={ contact.github.src } alt={ contact.github.alt }/>
-                    obrunominelli
-                  </a>
-                </div>
-                <div className="col">
-                  <a href={ contact.telegram.url } target="_blank" rel="noreferrer">
-                    <img src={ contact.telegram.src } alt={ contact.telegram.alt }/>
-                    obrunominelli
-                  </a>
-                  <a href={ contact.email.url } target="_blank" rel="noreferrer">
-                    <img src={ contact.email.src } alt={ contact.email.alt }/>
-                    obrunominelli
-                  </a>
-                </div>
+                ))
+              }
             </section>
           </div>
         </article>

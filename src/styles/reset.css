@@ -18,9 +18,3 @@
   --text-color-light-grey: #BFB8B8;
   --white: #FFFFFF;
 }
-
-.row {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
