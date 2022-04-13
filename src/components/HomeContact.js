@@ -19,7 +19,6 @@ class HomeContact extends Component {
           {contacts.map((contact) => (
             <a href={ contact.url } target="_blank" rel="noreferrer" key={ contact.alt } className={ styles.social_link }>
               <img src={ contact.src } alt={ contact.alt } className={ styles.social_icon } />
-              { contact.content }
             </a>
           ))}
         </section>

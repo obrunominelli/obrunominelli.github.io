@@ -8,7 +8,7 @@
 .container_projects > h1 {
   width: 100%;
   text-align: center;
-  color: var(--primary-color);
+  color: var(--primary);
   font-size: 2.5rem;
   margin-bottom: 2rem;
 }
@@ -17,29 +17,54 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--primary-dark-color);
+  background-color: var(--primary-dark);
   box-shadow: -0.5rem 0.25rem 0.5rem #00000040;
+  color: var(--secondary);
+  font-size: 1rem;
   width: 30%;
   margin: 1rem;
   padding: 2rem;
+  transition: 1s;
+}
+
+.project_card:hover {
+  background-color: var(--secondary);
+  color: var(--text-auto);
 }
 
 .project_info,
 .project_team {
-  display: flex;
-  flex-direction: column;
-  color: var(--text-color-white);
   font-style: normal;
   font-weight: 500;
-  font-size: 1rem;
-  line-height: 2.25rem;
+  line-height: 2.75rem;
   margin-bottom: 0.5rem;
 }
 
-.project_info > h2,
-.project_team > h3 {
-  border-bottom: 0.875rem solid var(--primary-color);
+.project_info > h2 {
+  border-bottom: 0.75rem solid var(--primary);
   margin-bottom: 1.5rem;
   font-size: 1.5rem;
-  color: var(--text-color-white);
+}
+
+.project_team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.project_team > h3 {
+  border-bottom: 0.5rem solid var(--primary);
+  margin-bottom: 0.5rem;
+  text-align: right;
+  font-size: 1.25rem;
+  width: 100%;
+}
+
+.project_team > p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
 }

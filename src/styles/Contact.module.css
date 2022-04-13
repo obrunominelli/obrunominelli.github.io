@@ -1,0 +1,71 @@
+.container_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 4rem;
+  padding: 2rem 4rem;
+  background-color: var(--primary);
+}
+
+.container_contact_row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container_contact_col {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.container_contact_col > h1 {
+  border-bottom: 0.875rem solid var(--primary-dark);
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  color: var(--secondary);
+}
+
+.container_job {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.job_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--primary-dark);
+  color: var(--secondary);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0.25rem;
+  padding: 0.5rem;
+  width: 30%;
+  height: 5rem;
+  transition: 1s;
+}
+
+.job_card:hover {
+  background-color: var(--secondary);
+  color: var(--text-auto);
+}
+
+.social_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: var(--secondary);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  margin: 1.5rem;
+}
+  
+.social_icon {
+  width: 70px;
+}
