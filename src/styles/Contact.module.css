@@ -1,18 +1,24 @@
-.container_contact {
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2rem 4rem;
-  padding: 2rem 4rem;
-  background-color: var(--primary);
 }
 
-.container_contact > h1 {
+.container > h1 {
   width: 100%;
   text-align: center;
-  color: var(--secondary);
+  color: var(--primary);
   font-size: 2.5rem;
   margin-bottom: 2rem;
+}
+
+.container_contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4rem;
+  background-color: var(--primary);
 }
 
 

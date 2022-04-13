@@ -246,7 +246,6 @@ figure {
 
   .container_about,
   .container_block,
-  .container_border,
   .container_button,
   .container_contact,
   .container_grey,
@@ -274,8 +273,12 @@ figure {
   }
 
   .container_border {
-    border: none;
-    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 4rem;
+    text-align: center;
   }
 
   .container_image {
@@ -298,7 +301,7 @@ figure {
   .container_skills_card {
     padding: 0;
     margin: 1rem;
-    width: 45%;
+    width: 40%;
   }
 
   .container_social {
@@ -309,7 +312,8 @@ figure {
   }
 
   .btn {
-    width: 15rem;
+    min-width: 10rem;
+    margin: 1rem;
   }
 
   .btn_dark {

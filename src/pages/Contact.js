@@ -10,27 +10,29 @@ class Contact extends Component {
     return (
       <>
         <Header />
-        <main className={ styles.container_contact }>
+        <main className={ styles.container }>
           <h1>{'</contato>'}</h1>
-          <article className={ styles.container_contact_row }>
-            <section className={ styles.container_contact_col }>
-              <h1>Do que você precisa?</h1>
-              <div className={ styles.container_job }>
-                {jobs.map((job) => (
-                  <p key={ job } className={ styles.job_card }>{job}</p>
-                ))}
-              </div>
+          <div className={ styles.container_contact }>
+            <article className={ styles.container_contact_row }>
+              <section className={ styles.container_contact_col }>
+                <h1>Do que você precisa?</h1>
+                <div className={ styles.container_job }>
+                  {jobs.map((job) => (
+                    <p key={ job } className={ styles.job_card }>{job}</p>
+                  ))}
+                </div>
+              </section>
+            </article>
+            <section className={ styles.container_contact_row }>
+              {
+                contacts.map((contact) => (
+                  <a href={ contact.url } target="_blank" rel="noreferrer" key={ contact.alt } className={ styles.social_link }>
+                    <img src={ contact.src } alt={ contact.alt } className={ styles.social_icon}/>
+                  </a>
+                ))
+              }
             </section>
-          </article>
-          <section className={ styles.container_contact_row }>
-            {
-              contacts.map((contact) => (
-                <a href={ contact.url } target="_blank" rel="noreferrer" key={ contact.alt } className={ styles.social_link }>
-                  <img src={ contact.src } alt={ contact.alt } className={ styles.social_icon}/>
-                </a>
-              ))
-            }
-          </section>
+          </div>
         </main>
         <Footer />
       </>

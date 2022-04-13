@@ -56,7 +56,6 @@
 .project_team > h3 {
   border-bottom: 0.5rem solid var(--primary);
   margin-bottom: 0.5rem;
-  text-align: right;
   font-size: 1.25rem;
   width: 100%;
 }
