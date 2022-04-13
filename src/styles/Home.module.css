@@ -73,7 +73,7 @@
   align-items: center;
   background-color: var(--primary-dark-color);
   padding: 2rem 4rem;
-  color: var(--white);
+  color: var(--text-color-white);
 }
 
 .container_about > section > h1 {
@@ -149,7 +149,7 @@
   border-bottom: 0.875rem solid var(--primary-dark-color);
   font-size: 2.5rem;
   margin-bottom: 2rem;
-  color: var(--white);
+  color: var(--text-color-white);
 }
 
 .container_contact > section > p {
@@ -158,7 +158,7 @@
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin-bottom: 0.5rem;
-  color: var(--white);
+  color: var(--text-color-white);
 }
 
 .container_contact_block {
@@ -202,13 +202,13 @@ figure {
 }
 
 .btn_purple {
-  color: var(--white);
+  color: var(--text-color-white);
   background-color: var(--primary-color);
 }
 
 .btn_white {
   color: var(--text-color-auto);
-  background-color: var(--white);
+  background-color: var(--text-color-white);
   width: 100%;
 }
 
@@ -217,7 +217,7 @@ figure {
   align-items: center;
   justify-content: space-evenly;
   text-decoration: none;
-  color: var(--white);
+  color: var(--text-color-white);
   font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
