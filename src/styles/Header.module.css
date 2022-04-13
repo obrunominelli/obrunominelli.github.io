@@ -28,3 +28,17 @@
 .nav_link:hover {
   color: var(--primary);
 }
+
+@media screen and (max-width: 992px) {
+  .header {
+    justify-content: center;
+  }
+
+  .header > h1 {
+    font-size: 1.75rem;
+  }
+  
+  .nav {
+    display: none;
+  }
+}

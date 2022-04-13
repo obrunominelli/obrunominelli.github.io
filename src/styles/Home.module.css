@@ -23,7 +23,6 @@
 .container_block > h1 {
   font-size: 3rem;
   text-align: left;
-  margin: 0.5rem;
 }
 
 .container_block > h1 > strong{
@@ -34,7 +33,6 @@
   font-size: 1.75rem;
   font-style: normal;
   font-weight: 600;
-  text-align: left;
   color: var(--text-grey);
   margin: 0.5rem;
 }
@@ -65,7 +63,7 @@
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
-  color: var(--text-light-grey);
+  color: var(--text-grey);
 }
 
 .container_about {
@@ -116,7 +114,6 @@
   border-bottom: 0.875rem solid var(--primary-dark);
   font-size: 2.5rem;
   width: 100%;
-  text-align: right;
 }
 
 .container_skills_block {
@@ -152,6 +149,7 @@
   font-size: 3rem;
   margin-bottom: 2rem;
   color: var(--secondary);
+  width: 100%;
 }
 
 .container_contact > section > p {
@@ -163,12 +161,15 @@
   color: var(--secondary);
 }
 
-.container_contact_block {
+.container_social {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  text-align: left;
+  justify-content: space-evenly;
   width: 50%;
+}
+
+.container_social > p {
+  width: 100%;
 }
 
 figure {
@@ -212,7 +213,12 @@ figure {
 .btn_white {
   color: var(--text-auto);
   background-color: white;
-  width: 100%;
+}
+
+.btn_dark {
+  display: none;
+  color: var(--secondary);
+  background-color: var(--primary-dark);
 }
 
 .social_link {
@@ -230,4 +236,83 @@ figure {
 
 .social_icon {
   width: 70px;
+}
+
+@media screen and (max-width: 992px) {
+  .container_grey {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container_about,
+  .container_block,
+  .container_border,
+  .container_button,
+  .container_contact,
+  .container_grey,
+  .container_skills,
+  .container_skills > section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .container_about > section > h1,
+  .container_contact > h1,
+  .container_skills > h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+
+  .container_block > h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .container_border {
+    border: none;
+    margin: 0;
+  }
+
+  .container_image {
+    min-width: 10rem;
+    max-width: 100%;
+  }
+
+  .container_skills > section,
+  .container_skills_block {
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container_skills > section > h2 {
+    font-size: 2.5rem;
+  }
+
+  .container_skills_card {
+    padding: 0;
+    margin: 1rem;
+    width: 45%;
+  }
+
+  .container_social {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+  .btn {
+    width: 15rem;
+  }
+
+  .btn_dark {
+    display: block;
+  }
 }

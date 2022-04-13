@@ -11,6 +11,7 @@ class Contact extends Component {
       <>
         <Header />
         <main className={ styles.container_contact }>
+          <h1>{'</contato>'}</h1>
           <article className={ styles.container_contact_row }>
             <section className={ styles.container_contact_col }>
               <h1>Do que você precisa?</h1>

@@ -21,7 +21,7 @@
   box-shadow: -0.5rem 0.25rem 0.5rem #00000040;
   color: var(--secondary);
   font-size: 1rem;
-  width: 30%;
+  width: 45%;
   margin: 1rem;
   padding: 2rem;
   transition: 1s;
@@ -67,4 +67,20 @@
   justify-content: center;
   text-align: center;
   width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .container_projects {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 1rem;
+  }
+
+  .project_card {
+    width: 100%;
+  }
+
+  .project_team > p {
+    width: 100%;
+  }
 }

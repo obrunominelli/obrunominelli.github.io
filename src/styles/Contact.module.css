@@ -7,6 +7,15 @@
   background-color: var(--primary);
 }
 
+.container_contact > h1 {
+  width: 100%;
+  text-align: center;
+  color: var(--secondary);
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+
 .container_contact_row {
   display: flex;
   justify-content: space-between;
@@ -68,4 +77,27 @@
   
 .social_icon {
   width: 70px;
+}
+
+@media screen and (max-width: 992px) {
+.container_contact {
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+}
+  .container_job {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .container_contact_row {
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+
+  .job_card {
+    width: 100%;
+  }
 }
