@@ -11,7 +11,7 @@ class About extends Component {
       <>
         <Header />
         <main className={ styles.container_about }>
-          <h1>{'</sobre mim>'}</h1>
+          <h1>{'</sobre>'}</h1>
           <article className={ styles.container_article }>
             <figure>
                 <img src={images.brunoMinelliPicture.src} alt={images.brunoMinelliPicture.alt} className={ styles.img }/>
@@ -19,7 +19,9 @@ class About extends Component {
                 <p>Bruno Minelli | Desenvolvedor Web</p>
               </figcaption>
             </figure>
-            { about.map((paragraph, index) => <p key={`paragraph-${index}`}>{paragraph}</p>)}
+            <section>
+              { about.map((paragraph, index) => <p key={`paragraph-${index}`}>{paragraph}</p>)}
+            </section>
           </article>
         </main>
         <Footer />

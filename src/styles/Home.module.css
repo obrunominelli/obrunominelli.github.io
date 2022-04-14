@@ -51,8 +51,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   margin: 2rem;
   padding: 2rem 0 2rem;
+  width: 25%;
 }
 
 .container_metric > h1 {
@@ -72,6 +74,11 @@
   background-color: var(--primary-dark);
   padding: 2rem 4rem;
   color: var(--secondary);
+}
+
+.container_about > section,
+.container_about > figure {
+  width: 50%;
 }
 
 .container_about > section > h1 {
@@ -163,9 +170,10 @@
 
 .container_social {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   justify-content: space-evenly;
-  width: 50%;
+  width: 45%;
+  margin: 1rem;
 }
 
 .container_social > p {
@@ -183,10 +191,7 @@ figure {
 }
 
 .container_button {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 0.5rem;
-  width: 100%;
+  display: none;
 }
 
 .btn {
@@ -216,7 +221,6 @@ figure {
 }
 
 .btn_dark {
-  display: none;
   color: var(--secondary);
   background-color: var(--primary-dark);
 }
@@ -232,13 +236,18 @@ figure {
   font-size: 1.5rem;
   line-height: 2.25rem;
   margin: 1.5rem;
+  width: 50%;
 }
 
 .social_icon {
-  width: 70px;
+  width: 50px;
 }
 
 @media screen and (max-width: 992px) {
+  .container {
+    margin: 1rem;
+  }
+
   .container_grey {
     display: flex;
     flex-direction: column;
@@ -250,23 +259,31 @@ figure {
   .container_contact,
   .container_grey,
   .container_skills,
-  .container_skills > section {
+  .container_skills > section,
+  .container_skills_block {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .container_about > section {
+    width: 100%;
+    padding: 0;
   }
 
   .container_about > section > h1,
   .container_contact > h1,
   .container_skills > h1 {
-    font-size: 3rem;
+    font-size: 2.25rem;
     width: 100%;
   }
 
+  .container_block,
   .container_block > h1 {
     font-size: 3rem;
     text-align: center;
@@ -277,7 +294,7 @@ figure {
     justify-content: center;
     flex-flow: row wrap;
     align-items: center;
-    margin: 4rem;
+    margin: 1rem;
     text-align: center;
   }
 
@@ -286,16 +303,8 @@ figure {
     max-width: 100%;
   }
 
-  .container_skills > section,
-  .container_skills_block {
-    justify-content: center;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
   .container_skills > section > h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   .container_skills_card {
@@ -309,6 +318,11 @@ figure {
     flex-flow: row wrap;
     justify-content: space-evenly;
     width: 100%;
+  }
+
+  .social_link {
+    width: 25%;
+    margin: 0;
   }
 
   .btn {

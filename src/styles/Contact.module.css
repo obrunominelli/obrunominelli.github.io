@@ -86,11 +86,17 @@
 }
 
 @media screen and (max-width: 992px) {
-.container_contact {
-  margin: 1rem;
-  padding: 2rem;
-  text-align: center;
-}
+  .container,
+  .container_contact {
+    margin: 1rem;
+    padding: 0;
+    text-align: center;
+  }
+
+  .container > h1 {
+    font-size: 2.25rem;
+  }
+
   .container_job {
     display: flex;
     flex-flow: row wrap;
