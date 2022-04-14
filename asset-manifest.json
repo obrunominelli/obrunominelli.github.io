@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8c078049.css",
+    "main.js": "/static/js/main.d2e45fc1.js",
+    "static/js/787.2e81f60a.chunk.js": "/static/js/787.2e81f60a.chunk.js",
+    "static/media/purple-cellphone.png": "/static/media/purple-cellphone.067f61513b0bf9e61cb0.png",
+    "static/media/paper-airplanes.png": "/static/media/paper-airplanes.99489cb75f05235f93b6.png",
+    "static/media/white-screen-laptop.png": "/static/media/white-screen-laptop.d17a8b2c0a0ba688f17b.png",
+    "static/media/bruno-minelli-picture.png": "/static/media/bruno-minelli-picture.10b8b96e56283c1f2b71.png",
+    "static/media/email-white-icon.png": "/static/media/email-white-icon.5591c2d6bf5be031f5d8.png",
+    "static/media/github-white-icon.png": "/static/media/github-white-icon.a28ce2e77442f0e2ca45.png",
+    "static/media/broken-robot.png": "/static/media/broken-robot.6f6099cd72b23eb01f24.png",
+    "static/media/telegram-white-icon.png": "/static/media/telegram-white-icon.8d283d0589043fb91dbf.png",
+    "static/media/linkedin-white-icon.png": "/static/media/linkedin-white-icon.5a6a641bc7226f513d02.png",
+    "index.html": "/index.html",
+    "main.8c078049.css.map": "/static/css/main.8c078049.css.map",
+    "main.d2e45fc1.js.map": "/static/js/main.d2e45fc1.js.map",
+    "787.2e81f60a.chunk.js.map": "/static/js/787.2e81f60a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c078049.css",
+    "static/js/main.d2e45fc1.js"
+  ]
+}
