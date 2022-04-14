@@ -3,7 +3,7 @@ import styles from '../styles/Footer.module.css';
 const Footer = () => {
   return (
     <footer className={ styles.footer }>
-      <p>Bruno Minelli | Desenvolvedor Web Frontend&copy;.</p>
+      <p>Bruno Minelli | Desenvolvedor Web Frontend&copy;</p>
       <p>Todos os direitos reservados.</p>
     </footer>
   );
