@@ -13,7 +13,7 @@ class Projects extends Component {
             <h1>{'</projetos>'}</h1>
             {
               projects.map((project) => (
-                <section key={project.title} className={ styles.project_card }>
+                <a href={ project.url } key={project.title} className={ styles.project_card }>
                   <div className={ styles.project_info }>
                     <h2>{project.title}</h2>
                     <p>{project.deadline}</p>
@@ -23,7 +23,7 @@ class Projects extends Component {
                     <h3>Equipe</h3>
                     {project.team.map((member) => <p key={ member }>{member}</p>)}
                   </div>
-                </section>
+                </a>
               ))
             }
           </main>
