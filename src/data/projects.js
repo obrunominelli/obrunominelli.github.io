@@ -1,5 +1,12 @@
 export const projects = [
   {
+    title: 'Planetas de Star Wars',
+    deadline: '18/04/2022',
+    description: 'Desenvolvimento de uma aplicação web que filtra planetas do universo de Star Wars trazidos por meio de uma consulta à uma API. Neste projeto o gerenciamento de estado é gerenciado por meio do uso de Context API.',
+    team: ['Bruno Minelli'],
+    url: 'https://obrunominelli.github.io/'
+  },
+  {
     title: 'Trivia',
     deadline: '18/04/2022',
     description: 'Desenvolvimento de um jogo de perguntas e respostas alimentado por uma API de perguntas de conhecimentos gerais.',
