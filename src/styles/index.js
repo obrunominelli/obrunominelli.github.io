@@ -11,9 +11,14 @@ const Head = styled.header `
   color: ${props => props.color};
   width: 100%;
 
-  @media screen and (min-width: 756px){
+  h1 {
+    margin: 0;
+  }
+  
+  @media screen and (min-width: 768px){
     flex-flow: row nowrap;
     justify-content: space-between;
+    padding: 2rem 4rem;
 
     h1 {
       margin: 0;
@@ -37,7 +42,7 @@ const NavLink = styled.nav `
     font-weight: 600;
   }
 
-  @media screen and (min-width: 756px){
+  @media screen and (min-width: 768px){
     width: fit-content;
 
     a {
@@ -51,6 +56,7 @@ const NavSocial = styled.nav `
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-evenly;
+  width: 100%;
 `;
 
 const ExternalLink = styled.a `
@@ -80,13 +86,26 @@ const Wrapper = styled.article `
   padding: 1rem;
   width: 100%;
 
-  @media screen and (min-width: 756px){
+  @media screen and (min-width: 768px){
     flex-flow: row nowrap;
     padding: 2rem 4rem;
+  } 
+`;
+
+const Section = styled.section `
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  @media screen and (min-width: 1279px) {
+    flex-flow: row nowrap;
+    width: 85%;
   }
 `;
 
-const Block = styled.section `
+const Block = styled.div `
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -101,9 +120,9 @@ const Title = styled.h1 `
   margin-bottom: 0.5rem;
   width: 100%;
 
-  @media screen and (min-width: 756px){
+  @media screen and (min-width: 768px){
     text-align: left;
-    font-size: 3rem;
+    font-size: 2.75rem;
   }
 `;
 
@@ -113,7 +132,7 @@ const Subtitle = styled.h2 `
   text-align: center;
   width: 100%;
 
-  @media screen and (min-width: 756px){
+  @media screen and (min-width: 768px){
     text-align: left;
     font-size: 2.5rem;
   }
@@ -137,10 +156,14 @@ const Paragraph = styled.p `
     color: ${palette.light.accent};
   }
 
-  @media screen and (min-width: 756px){
-    font-size: 1.5rem;
+  @media screen and (min-width: 768px){
+    font-size: 1rem;
     text-align: left;
     width: 100%;
+  }
+
+  @media screen and (min-width: 1279px){
+    font-size: 1.5rem;
   }
 `;
 
@@ -153,7 +176,7 @@ const Card = styled.div `
   padding: 1rem;
   width: 50%;
 
-  @media screen and (min-width: 756px){
+  @media screen and (min-width: 768px){
     max-width: 25%;
 
     ${Title}, ${Paragraph} {
@@ -163,8 +186,8 @@ const Card = styled.div `
 `;
 
 const Image = styled.img `
-  width: 75%;
-  max-width: 25rem;
+  width: 60%;
+  max-width: 80%;
 `;
 
 const Foot = styled.footer `
@@ -177,7 +200,9 @@ const Foot = styled.footer `
   color: ${props => props.color};
   width: 100%;
 
-  @media screen and (min-width: 756px){
+  @media screen and (min-width: 768px){
+    padding: 2rem 4rem;
+
     ${Paragraph} {
       text-align: center;
     }
@@ -191,6 +216,7 @@ export {
   ExternalLink,
   Container,
   Wrapper,
+  Section,
   Block,
   Card,
   Title,

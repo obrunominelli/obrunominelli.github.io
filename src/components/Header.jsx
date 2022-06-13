@@ -6,11 +6,11 @@ import palette from '../styles/palette';
 function Header() {
   return (
     <Head
-      background={palette.light.secondary}
-      color={palette.light.primary}
+      background={ palette.light.secondary }
+      color={ palette.light.primary }
     >
-      <Title>{`</bruno minelli>`}</Title>
-      <NavLink color={palette.light.primary}>
+      <Title>{ `</bruno minelli>` }</Title>
+      <NavLink color={ palette.light.primary }>
         <Link to='/'>Home</Link>
         <Link to='/projects'>Projetos</Link>
         <Link to='/about'>Sobre</Link>
