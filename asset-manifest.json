@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b3e560e.css",
-    "main.js": "/static/js/main.3b15e0ec.js",
+    "main.css": "/static/css/main.acd7408a.css",
+    "main.js": "/static/js/main.f54f338b.js",
     "static/js/787.2e81f60a.chunk.js": "/static/js/787.2e81f60a.chunk.js",
-    "static/media/purple-cellphone.png": "/static/media/purple-cellphone.067f61513b0bf9e61cb0.png",
-    "static/media/paper-airplanes.png": "/static/media/paper-airplanes.99489cb75f05235f93b6.png",
-    "static/media/white-screen-laptop.png": "/static/media/white-screen-laptop.d17a8b2c0a0ba688f17b.png",
-    "static/media/bruno-minelli-picture.png": "/static/media/bruno-minelli-picture.10b8b96e56283c1f2b71.png",
-    "static/media/email-white-icon.png": "/static/media/email-white-icon.5591c2d6bf5be031f5d8.png",
-    "static/media/github-white-icon.png": "/static/media/github-white-icon.a28ce2e77442f0e2ca45.png",
-    "static/media/broken-robot.png": "/static/media/broken-robot.6f6099cd72b23eb01f24.png",
-    "static/media/telegram-white-icon.png": "/static/media/telegram-white-icon.8d283d0589043fb91dbf.png",
-    "static/media/linkedin-white-icon.png": "/static/media/linkedin-white-icon.5a6a641bc7226f513d02.png",
+    "static/media/image-cellphones.png": "/static/media/image-cellphones.8faaea69899cff81e294.png",
+    "static/media/image-airplanes.png": "/static/media/image-airplanes.198fa64a8b1bac397441.png",
+    "static/media/image-laptop.png": "/static/media/image-laptop.d17a8b2c0a0ba688f17b.png",
+    "static/media/icon-linkedin-dark.svg": "/static/media/icon-linkedin-dark.9af6d1c4cae86604506b2a4f56b1b047.svg",
+    "static/media/icon-linkedin-light.svg": "/static/media/icon-linkedin-light.54a6c023a03c3b7b69e05332a8c82afd.svg",
+    "static/media/icon-github-dark.svg": "/static/media/icon-github-dark.370cba83852c6d3a6f13d4cc9822e091.svg",
+    "static/media/icon-github-light.svg": "/static/media/icon-github-light.977e1dce65a2dc9e0433796b1887ee83.svg",
+    "static/media/icon-mail-dark.svg": "/static/media/icon-mail-dark.1b4cace1be75ed3501dba204ed55d5eb.svg",
+    "static/media/icon-mail-light.svg": "/static/media/icon-mail-light.0ad33066f34f84c7c0602d89c437846f.svg",
+    "static/media/icon-telegram-dark.svg": "/static/media/icon-telegram-dark.afa32786e10e5de705b5cf57e32964b3.svg",
+    "static/media/icon-telegram-light.svg": "/static/media/icon-telegram-light.b21906081bf1ee17b3c8f19d00843e25.svg",
     "index.html": "/index.html",
-    "main.2b3e560e.css.map": "/static/css/main.2b3e560e.css.map",
-    "main.3b15e0ec.js.map": "/static/js/main.3b15e0ec.js.map",
+    "main.acd7408a.css.map": "/static/css/main.acd7408a.css.map",
+    "main.f54f338b.js.map": "/static/js/main.f54f338b.js.map",
     "787.2e81f60a.chunk.js.map": "/static/js/787.2e81f60a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b3e560e.css",
-    "static/js/main.3b15e0ec.js"
+    "static/css/main.acd7408a.css",
+    "static/js/main.f54f338b.js"
   ]
 }
