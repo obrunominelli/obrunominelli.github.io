@@ -22,6 +22,89 @@ const about = [
   "Atualmente eu trabalho como Desenvolvedor Web Frontend Freelancer e sou estudante de Desenvolvimento Web Fullstack na Trybe para aprimorar minhas habilidades."
 ];
 
+const projects = [
+  {
+    title: 'iCook',
+    description: "Aplicativo de receitas alimentado pelas API's TheMealsDB e TheCocktailsDB",
+    team: ['Bruno Minelli', 'Isabela Nery', 'Thais Kotovicz', 'Wanny Martins'],
+    stack: 'Front-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'E-Commerce',
+    description: 'Aplicação de loja online alimentada pela API do Mercado Livre.',
+    team: ['André Felipe', 'Bruno Minelli', 'Jaqueline Santos', 'Jéssica Pereira', 'Vagner Britz'],
+    stack: 'Front-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'E-Wallet',
+    description: 'Aplicação que converte gastos em moedas estrangeiras para Real Brasileiro',
+    team: ['Bruno Minelli'],
+    stack: 'Front-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'Tracks',
+    description: 'Aplicativo de música online alimentado pela API do iTunes.',
+    team: ['Bruno Minelli'],
+    stack: 'Front-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'Collor Guesser',
+    description: 'Você consegue adivinhar a cor de acordo com o código que aparece na tela?',
+    team: ['Bruno Minelli'],
+    stack: 'Front-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'Talkers',
+    description: 'Aplicação de gerenciamento de eventos para cadastro de palestrantes.',
+    team: [''],
+    stack: 'Back-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'Store',
+    description: 'Aplicação de gerenciamento de lojas de departamentos.',
+    team: [''],
+    stack: 'Back-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'Car Shop',
+    description: 'Aplicação de gerenciamento de concessionária.',
+    team: [''],
+    stack: 'Back-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'Ayla RPG',
+    description: 'Aplicação de criação de pergonagens para cenários de RPG de mesa.',
+    team: [''],
+    stack: 'Back-end',
+    repo: '',
+    url: '',
+  },
+  {
+    title: 'Courier',
+    description: 'Aplicativo de entregas de produtos em geral.',
+    team: [''],
+    stack: 'Back-end',
+    repo: '',
+    url: '',
+  },
+]
+
 const images = {
   email: {
     dark: {
@@ -84,4 +167,4 @@ const social = {
     telegram: 'https://t.me/obrunominelli/',
 }
 
-export { skills, about, images, social };
+export { skills, about, projects, images, social };

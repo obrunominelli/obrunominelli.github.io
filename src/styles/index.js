@@ -18,27 +18,28 @@ const Head = styled.header `
   }
   
   @media screen and (min-width: 768px) {
-    flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
     padding: 2rem 4rem;
 
     h1 {
       margin: 0;
       text-align: center;
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
   }
 
   @media screen and (min-width: 1280px) {
+    justify-content: space-between;
     h1 {
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
   }
 
   @media screen and (min-width: 1920px) {
     padding: 4rem 8rem;
+
     h1 {
-      font-size: 4rem;
+      font-size: 3.5rem;
     }
   }
 `;
@@ -55,6 +56,11 @@ const NavLink = styled.nav `
     text-decoration: none;
     color: ${props => props.color};
     font-weight: 600;
+    transition: 0.5s;
+
+    :hover {
+      color: ${ palette.light.accent };
+    }
   }
 
   @media screen and (min-width: 768px) {
@@ -125,14 +131,15 @@ const Section = styled.section `
 
   @media screen and (min-width: 768px) {
     flex-flow: row nowrap;
+    width: 95%;
   }
 
   @media screen and (min-width: 1280px) {
-    width: 85%;
+    width: 90%;
   }
 
   @media screen and (min-width: 1920px) {
-    width: 75%;
+    width: 70%;
   }
 `;
 
@@ -169,6 +176,7 @@ const Subtitle = styled.h2 `
   font-size: 1.25rem;
   margin-bottom: 0.25rem;
   text-align: center;
+  color: ${ props => props.color };
   width: 100%;
 
   @media screen and (min-width: 768px) {
@@ -195,6 +203,7 @@ const Paragraph = styled.p `
     color: ${ props => props.color };
     font-weight: 600;
     text-decoration: none;
+    transition: 0.5s;
     
     :hover {
       color: ${ palette.light.accent };
@@ -212,7 +221,7 @@ const Paragraph = styled.p `
   }
 
   @media screen and (min-width: 1280px) {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   @media screen and (min-width: 1920px) {
@@ -236,6 +245,21 @@ const Card = styled.div `
       text-align: center;
     }
   }
+`;
+
+const Project = styled.div `
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: ${ palette.light.primary };
+  border: 1px solid ${palette.light.accent};
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 40%;
+  min-height: 20rem;
+  transition: 0.5s;
 `;
 
 const Image = styled.img `
@@ -282,6 +306,7 @@ export {
   Section,
   Block,
   Card,
+  Project,
   Title,
   Subtitle,
   Paragraph,
