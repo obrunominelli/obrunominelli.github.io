@@ -22,7 +22,7 @@ function Home() {
                   eu sou Bruno Minelli
                 </Title>
                 <Subtitle>Desenvolvedor Web</Subtitle>
-                <Paragraph>
+                <Paragraph color={ palette.light.primary }>
                   Especialista em desenvolvimento <strong>frontend</strong>, <strong>backend</strong> e <strong>fullstack</strong>
                 </Paragraph>
               </Block>
@@ -38,19 +38,19 @@ function Home() {
             <Section>
               <Card>
                 <Title>{ year - 2014 }</Title>
-                <Paragraph>Anos de Experiência</Paragraph>
+                <Paragraph color={ palette.light.primary }>Anos de Experiência</Paragraph>
               </Card>
               <Card>
                 <Title>23</Title>
-                <Paragraph>Projetos Concluídos</Paragraph>
+                <Paragraph color={ palette.light.primary }>Projetos Concluídos</Paragraph>
               </Card>
               <Card>
                 <Title>27</Title>
-                <Paragraph>Repositórios GitHub</Paragraph>
+                <Paragraph color={ palette.light.primary }>Repositórios GitHub</Paragraph>
               </Card>
               <Card>
                 <Title>5</Title>
-                <Paragraph>Projetos em Desenvolvimento</Paragraph>
+                <Paragraph color={ palette.light.primary }>Projetos em Desenvolvimento</Paragraph>
               </Card>
             </Section>
           </Wrapper>
@@ -79,7 +79,7 @@ function Home() {
                 <Title>Competências</Title>
                 { skills.map((skill, index) =>
                   <Card key={ index }>
-                    <Paragraph>{ skill }</Paragraph>
+                    <Paragraph color={ palette.light.primary }>{ skill }</Paragraph>
                   </Card>) }
               </Block>
             </Section>
