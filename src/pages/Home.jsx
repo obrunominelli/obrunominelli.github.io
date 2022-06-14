@@ -60,7 +60,7 @@ function Home() {
           >
             <Section>
               <Block>
-                <Title>Sobre mim...</Title>
+                <Title>Sobre mim</Title>
                 <Paragraph color={ palette.light.secondary }>
                   Eu sou um apaixonado por jogos e por tecnologia com mais de oito anos de experiência no setor de tecnologia da informação aplicada à educação. Eu já corrigi um banco de dados em tempo real durante um evento de cursos de reciclagem para pessoas da área de medicina e gerenciei uma rede de mais de cem computadores no IFSP para pessoas estudantes.
                 </Paragraph>
