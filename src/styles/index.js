@@ -14,6 +14,7 @@ const Head = styled.header `
   h1 {
     margin: 0;
     font-size: 2rem;
+    width: fit-content;
   }
   
   @media screen and (min-width: 768px) {
@@ -43,7 +44,7 @@ const Head = styled.header `
 `;
 
 const NavLink = styled.nav `
-  display: none;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
@@ -187,6 +188,8 @@ const Subtitle = styled.h2 `
 const Paragraph = styled.p `
   font-size: 0.875rem;
   text-align: center;
+  margin-bottom: 0.5rem;
+  color: ${props => props.color};
 
   a {
     color: ${ props => props.color };
@@ -209,7 +212,7 @@ const Paragraph = styled.p `
   }
 
   @media screen and (min-width: 1280px) {
-    font-size: 1.75rem;
+    font-size: 1.5rem;
   }
 
   @media screen and (min-width: 1920px) {
@@ -256,6 +259,7 @@ const Foot = styled.footer `
 
     ${Paragraph} {
       text-align: center;
+      font-weight: 600;
     }
   }
 
