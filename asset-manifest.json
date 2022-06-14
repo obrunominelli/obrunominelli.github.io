@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.acd7408a.css",
-    "main.js": "/static/js/main.f54f338b.js",
+    "main.js": "/static/js/main.2b4ffd5b.js",
     "static/js/787.2e81f60a.chunk.js": "/static/js/787.2e81f60a.chunk.js",
-    "static/media/image-cellphones.png": "/static/media/image-cellphones.8faaea69899cff81e294.png",
+    "static/media/image-cellphones.png": "/static/media/image-cellphones.41346f813593e459f01a.png",
     "static/media/image-airplanes.png": "/static/media/image-airplanes.198fa64a8b1bac397441.png",
-    "static/media/image-laptop.png": "/static/media/image-laptop.d17a8b2c0a0ba688f17b.png",
+    "static/media/image-laptop.png": "/static/media/image-laptop.db167c7d201d10227d69.png",
     "static/media/icon-linkedin-dark.svg": "/static/media/icon-linkedin-dark.9af6d1c4cae86604506b2a4f56b1b047.svg",
     "static/media/icon-linkedin-light.svg": "/static/media/icon-linkedin-light.54a6c023a03c3b7b69e05332a8c82afd.svg",
     "static/media/icon-github-dark.svg": "/static/media/icon-github-dark.370cba83852c6d3a6f13d4cc9822e091.svg",
@@ -16,11 +16,11 @@
     "static/media/icon-telegram-light.svg": "/static/media/icon-telegram-light.b21906081bf1ee17b3c8f19d00843e25.svg",
     "index.html": "/index.html",
     "main.acd7408a.css.map": "/static/css/main.acd7408a.css.map",
-    "main.f54f338b.js.map": "/static/js/main.f54f338b.js.map",
+    "main.2b4ffd5b.js.map": "/static/js/main.2b4ffd5b.js.map",
     "787.2e81f60a.chunk.js.map": "/static/js/787.2e81f60a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acd7408a.css",
-    "static/js/main.f54f338b.js"
+    "static/js/main.2b4ffd5b.js"
   ]
 }
