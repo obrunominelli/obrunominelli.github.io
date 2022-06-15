@@ -18,13 +18,13 @@ function Home() {
           >
             <Section>
               <Block>
-                <Title>
+                <Title color={ palette.light.primary }>
                   Olá,<br />
                   eu sou Bruno Minelli
                 </Title>
-                <Subtitle>Desenvolvedor Web</Subtitle>
+                <Subtitle color={ palette.light.primary }>Desenvolvedor Web</Subtitle>
                 <Paragraph color={ palette.light.primary }>
-                  Especialista em desenvolvimento <strong>frontend</strong>, <strong>backend</strong> e <strong>fullstack</strong>
+                  Especialista em desenvolvimento <strong>fullstack</strong>
                 </Paragraph>
               </Block>
               <Block>
@@ -61,7 +61,7 @@ function Home() {
           >
             <Section>
               <Block>
-                <Title>Sobre mim</Title>
+                <Title color={ palette.light.secondary }>Sobre mim</Title>
                 <Paragraph color={ palette.light.secondary }>
                   Eu sou um apaixonado por jogos e por tecnologia com mais de oito anos de experiência no setor de tecnologia da informação aplicada à educação. Eu já corrigi um banco de dados em tempo real durante um evento de cursos de reciclagem para pessoas da área de medicina e gerenciei uma rede de mais de cem computadores no IFSP para pessoas estudantes. - <Link to='/about'>Veja mais...</Link>
                 </Paragraph>
@@ -77,7 +77,7 @@ function Home() {
           >
             <Section>
               <Block>
-                <Title>Competências</Title>
+                <Title color={ palette.light.primary }>Competências</Title>
                 { skills.map((skill, index) =>
                   <Card key={ index }>
                     <Paragraph color={ palette.light.primary }>{ skill }</Paragraph>
