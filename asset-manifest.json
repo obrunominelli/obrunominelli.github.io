@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.acd7408a.css",
-    "main.js": "/static/js/main.2b4ffd5b.js",
+    "main.js": "/static/js/main.1fa84ce4.js",
     "static/js/787.2e81f60a.chunk.js": "/static/js/787.2e81f60a.chunk.js",
     "static/media/image-cellphones.png": "/static/media/image-cellphones.41346f813593e459f01a.png",
     "static/media/image-airplanes.png": "/static/media/image-airplanes.198fa64a8b1bac397441.png",
@@ -12,15 +12,15 @@
     "static/media/icon-github-light.svg": "/static/media/icon-github-light.977e1dce65a2dc9e0433796b1887ee83.svg",
     "static/media/icon-mail-dark.svg": "/static/media/icon-mail-dark.1b4cace1be75ed3501dba204ed55d5eb.svg",
     "static/media/icon-mail-light.svg": "/static/media/icon-mail-light.0ad33066f34f84c7c0602d89c437846f.svg",
+    "index.html": "/index.html",
     "static/media/icon-telegram-dark.svg": "/static/media/icon-telegram-dark.afa32786e10e5de705b5cf57e32964b3.svg",
     "static/media/icon-telegram-light.svg": "/static/media/icon-telegram-light.b21906081bf1ee17b3c8f19d00843e25.svg",
-    "index.html": "/index.html",
     "main.acd7408a.css.map": "/static/css/main.acd7408a.css.map",
-    "main.2b4ffd5b.js.map": "/static/js/main.2b4ffd5b.js.map",
+    "main.1fa84ce4.js.map": "/static/js/main.1fa84ce4.js.map",
     "787.2e81f60a.chunk.js.map": "/static/js/787.2e81f60a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.acd7408a.css",
-    "static/js/main.2b4ffd5b.js"
+    "static/js/main.1fa84ce4.js"
   ]
 }
