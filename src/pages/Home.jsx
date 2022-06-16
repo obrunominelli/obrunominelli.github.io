@@ -107,9 +107,6 @@ function Home() {
                   </ExternalLink>
                 </NavSocial>
               </Block>
-              <Block>
-                <Image src={ images.airplanes.src } alt={ images.airplanes.alt } />
-              </Block>
             </Section>
           </Wrapper>
       </Container>
