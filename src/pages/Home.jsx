@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import { images, skills, social } from '../data';
@@ -63,7 +63,8 @@ function Home() {
               <Block>
                 <Title color={ palette.light.secondary }>Sobre mim</Title>
                 <Paragraph color={ palette.light.secondary }>
-                  Eu sou um apaixonado por jogos e por tecnologia com mais de oito anos de experiência no setor de tecnologia da informação aplicada à educação. Eu já corrigi um banco de dados em tempo real durante um evento de cursos de reciclagem para pessoas da área de medicina e gerenciei uma rede de mais de cem computadores no IFSP para pessoas estudantes. - <Link to='/about'>Veja mais...</Link>
+                  Eu sou um apaixonado por jogos e por tecnologia com mais de oito anos de experiência no setor de tecnologia da informação aplicada à educação. Eu já corrigi um banco de dados em tempo real durante um evento de cursos de reciclagem para pessoas da área de medicina e gerenciei uma rede de mais de cem computadores no IFSP para pessoas estudantes.
+                  {/* - <Link to='/about'>Veja mais...</Link>*/}
                 </Paragraph>
               </Block>
               <Block>
