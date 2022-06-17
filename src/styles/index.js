@@ -143,15 +143,15 @@ const Title = styled.h1 `
   @media screen and (min-width: 768px) {
     text-align: left;
     font-size: 1.75rem;
-  }
+  };
 
   @media screen and (min-width: 1280px) {
     font-size: 3rem;
-  }
+  };
 
   @media screen and (min-width: 1920px) {
     font-size: 3.5rem;
-  }
+  };
 `;
 
 const Subtitle = styled.h2 `
@@ -175,7 +175,7 @@ const Subtitle = styled.h2 `
 `;
 
 const Paragraph = styled.p `
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
   margin-bottom: 0.5rem;
   color: ${props => props.color};
