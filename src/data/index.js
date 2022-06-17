@@ -19,7 +19,7 @@ const about = [
 ];
 
 const skills = [
-  'HTML','CSS','JavaScript','React','Redux','Hooks','Context API','Node.js','RTL','Jest','TDD','Design Responsivo','SQL','Linux','Conteinerização','Git'
+  'HTML','CSS','JavaScript','React','Redux','Hooks','Context API','Node.js','RTL','Jest','TDD','Design Responsivo','SQL','Linux','Docker','Git'
 ];
 
 const services = [
@@ -48,11 +48,11 @@ const services = [
     description: 'Você é apaixonado por um assunto e gostaria de criar uma comunidade para discutir tópicos relacionados à sua paixão. Nós que podemos desenvolver sua ideia!',
   },
   {
-    title: 'Portal de Notícias',
+    title: 'Notícias',
     description: 'A busca por informações é constante nos dias de hoje. Uma plataforma de notícias é a saída para que você entregue informação com extrema qualidade.',
   },
   {
-    title: 'Área de Membros',
+    title: 'Membros',
     description: 'Sua marca está se expandindo e você quer entregar conteúdos exclusivos para o seu público, certo? A sessão reservada para membros é um bom começo.',
   },
   {
