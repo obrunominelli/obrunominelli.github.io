@@ -1,9 +1,9 @@
 import React from 'react';
-import Main from './components/Main';
+import AppRoutes from './store/routes';
 
 function App() {
   return (
-    <Main />
+    <AppRoutes />
   );
 }
 
