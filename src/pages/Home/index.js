@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { about, skills } from '../../assets/data';
 import images from '../../assets/images';
 import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import { Container, Wrapper, Section, Division, Image, Card, Title, Subtitle, SocialIcon, Stack } from './styles';
 import * as icons from '../../assets/icons';
+import AppContext from '../../store/context';
 
-const { light } = icons;
+const { dark, light } = icons;
 
 function Home() {
+  const { appTheme } = useContext(AppContext);
+
   return (
     <Container>
       <Header />
@@ -53,7 +56,12 @@ function Home() {
           <Division>
             <Title>Contato</Title>
             <Section>
-              {light.map(({src, alt, url}, index) =>
+              {appTheme ?
+                dark.map(({src, alt, url}, index) =>
+                <SocialIcon href={ url } key={ index } target='_blank'>
+                  <Image src={ src }  alt={ alt } />
+                </SocialIcon>
+              ): light.map(({src, alt, url}, index) =>
                 <SocialIcon href={ url } key={ index } target='_blank'>
                   <Image src={ src }  alt={ alt } />
                 </SocialIcon>
