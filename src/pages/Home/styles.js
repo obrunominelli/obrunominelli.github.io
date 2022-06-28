@@ -108,7 +108,7 @@ const Stack = styled(Division)`
   cursor: pointer;
   margin: 1.75rem;
   position: relative;
-  transition: 1s;
+  transition: 0.5s;
   width: 100%;
 
   ${Section} {
@@ -184,6 +184,7 @@ const Subtitle = styled.h2`
 
 const Image = styled.img`
   width: 60%;
+  transition: 0.5s;
 
   @media screen and (min-width: 768px) {
     width: 35%;
@@ -195,6 +196,13 @@ const SocialIcon = styled.a`
   align-items: center;
   justify-content: center;
   width: 25%;
+
+  :hover {
+    img {
+      width: 30%;
+      transition: 1s;
+    };
+  };
 `;
 
 export { Container, Wrapper, Section, Division, Card, Stack, Title, Subtitle, Image, SocialIcon }
