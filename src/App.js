@@ -1,19 +1,17 @@
-import { Route, Switch } from 'react-router';
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Projects from './pages/Projects';
-import NotFound from './pages/NotFound';
+import React, { useContext } from 'react';
+import { ThemeProvider } from 'styled-components';
+import AppContext from './store/context';
+import AppRoutes from './store/routes';
+import GlobalStyle from './styles';
+import { darkTheme, lightTheme } from './styles/themes';
 
 function App() {
+  const { appTheme } = useContext(AppContext);
   return (
-    <Switch>
-      <Route exact path="/contact" component={ Contact }/>
-      <Route exact path="/about" component={ About }/>
-      <Route exact path="/projects" component={ Projects }/>
-      <Route exact path="/" component={ Home }/>
-      <Route exact path="*" component={ NotFound }/>
-    </Switch>
+    <ThemeProvider theme={ appTheme ? darkTheme : lightTheme }>
+      <GlobalStyle />
+      <AppRoutes />
+    </ThemeProvider>
   );
 }
 
