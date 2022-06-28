@@ -4,7 +4,7 @@ import Home from '../pages/Home'
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path='/' element={ <Home />} />
       </Routes>
