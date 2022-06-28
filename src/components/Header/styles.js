@@ -24,6 +24,10 @@ const Container = styled.header`
     };
   }
 
+  img {
+    width: 2rem;
+  };
+
   @media screen and (min-width: 768px) {
     h1 {
       font-size: 1.75rem;

@@ -2,10 +2,12 @@ import darkEmail from './dark/email.svg';
 import darkGitHub from './dark/github.svg';
 import darkLinkedIn from './dark/linkedin.svg';
 import darkTelegram from './dark/telegram.svg';
+import darkSun from './dark/sun.svg';
 import lightEmail from './light/email.svg';
 import lightGitHub from './light/github.svg';
 import lightLinkedIn from './light/linkedin.svg';
 import lightTelegram from './light/telegram.svg';
+import lightMoon from './light/moon.svg';
 
 const dark = [
   {
@@ -53,4 +55,15 @@ const light = [
   },
 ];
 
-export { dark, light };
+const theme = {
+  dark: {
+    src: darkSun,
+    alt: 'Theme icon',
+  },
+  light: {
+    src: lightMoon,
+    alt: 'Theme icon',
+  },
+};
+
+export { dark, light, theme };
